@@ -1,0 +1,44 @@
+.root { 
+    -fx-accent: #1e74c6;
+    -fx-focus-color: -fx-accent;
+    -fx-base: #373e43;
+    -fx-control-inner-background: derive(-fx-base, 35%);
+    -fx-control-inner-background-alt: -fx-control-inner-background;
+    -fx-font-size: 11pt;
+}
+
+.label{
+    -fx-text-fill: lightgray;
+}
+
+.text-field {
+    -fx-background-color: plum;
+    -fx-text-fill: black;
+}
+
+.text-field:focused {
+    -fx-border-color: pink;
+    -fx-border-width: 2;
+}
+
+.button{
+    -fx-background-color: mediumorchid;
+}
+
+.button:hover {
+    -fx-text-fill: white;
+    -fx-background-color: plum;
+}
+
+.button:default {
+    -fx-base: -fx-accent ;
+} 
+
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
+
+.dialog-pane:header .header-panel .label {
+    -fx-font-style: italic;
+    -fx-font-size: 1.5em;
+}
