@@ -1,4 +1,4 @@
-#PROG24178_EmployeeRecordsProject
+#EmployeeRecordsProject
 
 The goal of this project was to create a JavaFX GUI that contains pre-generated Employee Records
 The program would have the ability for: 
